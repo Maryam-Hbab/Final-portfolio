@@ -23,7 +23,7 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      title: "Master GAGE Webite",
+      title: "Master GAGE Website",
       img: IMG4,
       description:
         "Website for our Master’s Program (GAGE), designed using a Bootstrap template",
