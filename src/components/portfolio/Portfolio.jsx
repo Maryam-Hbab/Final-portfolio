@@ -6,11 +6,22 @@ import IMG3 from "../../assets/weather_website.jpg";
 import IMG4 from "../../assets/web_prj.png";
 import IMG5 from "../../assets/restaurant_website.jpg";
 import IMG6 from "../../assets/Web_mapping.png";
+import IMG7 from "../../assets/FindHome.jpg";
 import React from "react";
 
 //Portfolio function
 const Portfolio = () => {
   const soloProjects = [
+    {
+      id: 7,
+      title: "FindHome",
+      img: IMG7,
+      description:"A platform for buying, selling, and renting real estate, featuring advanced search, an interactive map, financial tools, and virtual tours.",
+      technologies: "Next.js | Node.js | Express | MongoDB",
+      link: "https://findhome-five.vercel.app/", 
+      github: "https://github.com/Maryam-Hbab/FindHome-real-estate-platfrome", 
+    },
+    
     {
       id: 1,
       title: "Todo list Website",
